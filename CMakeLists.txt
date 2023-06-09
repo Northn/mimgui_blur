@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(mimgui_blur_lib VERSION 1)
+project(mimgui_blur_lib VERSION 1.1)
 
 set(CMAKE_CXX_STANDARD 17)
 

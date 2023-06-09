@@ -25,7 +25,7 @@
 
 extern "C" {
 __declspec(dllexport) void mimgui_blur_apply(ImDrawList *draw_list,
-                                             const int radius,
+                                             const float radius,
                                              const ImU32 color,
                                              const float rounding,
                                              const ImDrawCornerFlags rounding_corners,
@@ -38,7 +38,7 @@ __declspec(dllexport) void mimgui_blur_invalidate() {
   imgui_blur::invalidate();
 }
 
-__declspec(dllexport) int mimgui_blur_version() {
+__declspec(dllexport) float mimgui_blur_version() {
   return MIMGUI_BLUR_VERSION;
 }
 }
